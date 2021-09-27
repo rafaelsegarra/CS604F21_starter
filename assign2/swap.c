@@ -10,6 +10,13 @@ int main(void) {
     //TODO: swap the value of a and b
     //TODO: for instance, if a=3, b=4
     //TODO: then after swap a=4, b=3
+
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+
+
     printf("after:a=%d, b=%d\n",a,b);
     return 0;
 }
