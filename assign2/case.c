@@ -9,6 +9,7 @@ int main ()
     //TODO: convert lowercase character to uppercase. You are not allowed to use
     //if or switch. 
     //TODO: for instance, if ch stores char a, then char A should be stored into no
+    no = ch - 32;
     printf("Letter in capital  : %c\n", no);
     return 0;
 
